@@ -25,7 +25,7 @@ app.post('/analyze', async (req, res) => {
     try {
         // Get the generative model
         
-        const model = genAI.getGenerativeModel({ model: "gemini-1.0-pro" });
+        const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash-latest" });
 
         const prompt = `
             You are "Privacy Pal," an expert legal assistant who explains complex terms in simple language for the average user.
